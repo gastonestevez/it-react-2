@@ -1,0 +1,13 @@
+.main-navbar {
+
+    background-color: salmon;
+    padding: 5px;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        .main-navbar__item {
+            padding-left: 10px;
+        }
+    }
+}
